@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       <link rel="icon" type="image/png" href="img/lab.png">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Navbar-->
+      <header>
+          <div class="navbar-fixed">
+            <nav class="red darken-4">
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                   <img class="responsive-img" src="img/logo.png" width="190">       
+                </a>
+              </div>
+            </nav>
+          </div>
+     </header>
+     <main>
+      <div class="container" style="margin-top: 5%;">
+        <div class="row">
+          <form class="col m5">
+             <div class="row">
+                  <div class="input-field col m10">
+                    <input id="nombre" type="text" class="validate">
+                    <label for="nombre">Nombre</label>
+                  </div>     
+             </div>
+             <div class="row">     
+                    <div class="input-field col m10">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Descripcion</label>
+                    </div>      
+             </div>
+             <div class="row">     
+                    <div class="input-field col m10">
+                      <textarea id="textarea2" class="materialize-textarea"></textarea>
+                      <label for="textarea2">Preparacion</label>
+                    </div>      
+             </div>
+             <div class="row">
+                  <div class="input-field col m10">
+                    <input id="precio" type="text" class="validate">
+                    <label for="precio">Precio</label>
+                  </div>     
+             </div>
+          </form>
+          <form class="col m7">
+               <div class="row">
+                 <div class="col m12">
+                   <h6 class="col m3" style="margin-top: 5%;">Equipo</h6>
+                    <nav class="col m4 red darken-4" style="height: 50px; margin-top: 2%;">
+                      <div class="nav-wrapper">
+                        <form>
+                          <div class="input-field">
+                            <input id="search" type="search" required>
+                            <label class="label-icon" for="search"><i class="material-icons" style="line-height: 50px;">search</i></label>
+                            <i class="material-icons">close</i>
+                          </div>
+                        </form>
+                      </div>
+                    </nav>
+                    <div class="input-field col m4">
+                      <select>
+                        <option value="" disabled selected>ComboBox</option>
+                        <option value="1">example1</option>
+                        <option value="2">example2</option>
+                        <option value="3">example3</option>
+                      </select>
+                      <label></label>
+                    </div>
+                    <div class="col m1">
+                        <a class="btn-floating waves-effect waves-light red darken-3" style="margin-top: 15px;"><i class="material-icons">add</i></a>
+                    </div>
+                 </div>   
+                  <div class="col m11" style="margin-left: 2%;">
+                    <ul class="collection">
+                      <li class="collection-item">rec-12</li>
+                      <li class="collection-item">tbn-1</li>
+                      <li class="collection-item">prm-15</li>
+                    </ul> 
+                  </div>
+              
+               <!--Reactivo-->
+                 <div class="col m12">
+                   <h6 class="col m3" style="margin-top: 5%;">Reactivo</h6>
+                    <nav class="col m4 red darken-4" style="height: 50px; margin-top: 2%;">
+                      <div class="nav-wrapper">
+                        <form>
+                          <div class="input-field">
+                            <input id="search1" type="search" required>
+                            <label class="label-icon" for="search1"><i class="material-icons" style="line-height: 50px;">search</i></label>
+                            <i class="material-icons">close</i>
+                          </div>
+                        </form>
+                      </div>
+                    </nav>
+                    <div class="input-field col m4">
+                      <select>
+                        <option value="" disabled selected>ComboBox</option>
+                        <option value="1">example1</option>
+                        <option value="2">example2</option>
+                        <option value="3">example3</option>
+                      </select>
+                      <label></label>
+                    </div>
+                    <div class="col m1">
+                        <a class="btn-floating waves-effect waves-light red darken-3" style="margin-top: 15px;"><i class="material-icons">add</i></a>
+                    </div>
+                 </div>  
+                 <div class="col m11" style="margin-left: 2%;">
+                  <table class="responsive-table">
+                    <thead>
+                      <tr>
+                          <th>Reactivo</th>
+                          <th>Cantidad</th>
+                          <th>Precio</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td>Papeleta</td>
+                        <td>2</td>
+                        <td>5$</td>
+                      </tr>
+                      <tr>
+                        <td>Pit-5</td>
+                        <td>200</td>
+                        <td>315$</td>
+                      </tr>
+                      <tr>
+                        <td>AR7</td>
+                        <td>100</td>
+                        <td>7$</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 </div>
+                 <div class="row" style="margin-left: 3%;">
+                   <div class="col m2">
+                     <h6>Costo</h6>
+                   </div>
+                   <div class="col m7 right-align">
+                     <h6>327$</h6>   
+                   </div>
+                 </div>
+                 <div class="input-field col m11" style="margin-left: 3%;">
+                      <textarea id="textarea3" class="materialize-textarea"></textarea>
+                      <label for="textarea3">Descripcion</label>
+                 </div> 
+                 <div class="col m11 center-align">
+                   <a class="waves-effect waves-light red darken-3 btn">Añadir Variante</a> 
+                 </div>
+               </div>       
+          </form>
+        </div>
+      </div>
+      </main>
+
+      <footer class="page-footer red darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 m12">
+                <h5 class="white-text">Centro Médico Quirúrgico La Trinidad</h5>
+                <p class="grey-text text-lighten-4">Av. Los Agustinos, Conjunto Res. Paramillo, Casa Nº. 1, Zona Industrial Paramillo, San Cristobal</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contactar</h5>
+                <ul>
+                  <li><h6><i class="tiny material-icons">call</i>(0276)3565093</h6></li>
+                  <li><h6><i class="tiny material-icons">call</i>(0276)510.5600</h6></li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © Copyright 2020. Todos los derechos reservados. Powered by LabLive
+            </div>
+          </div>
+      </footer>
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('select');
+          var instances = M.FormSelect.init(elems);
+        });
+         $(document).ready(function() {
+          $('input#input_text, textarea#textarea1').characterCounter();
+        });
+         $(document).ready(function() {
+          $('input#input_text, textarea#textarea2').characterCounter();
+        });
+         $(document).ready(function() {
+          $('input#input_text, textarea#textarea3').characterCounter();
+        });
+      </script>
+    </body>
+  </html>
+        

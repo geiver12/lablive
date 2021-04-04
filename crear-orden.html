@@ -1,0 +1,117 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       <link rel="icon" type="image/png" href="img/lab.png">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Navbar-->
+      <header>
+          <div class="navbar-fixed">
+            <nav class="red darken-4">
+              <div class="nav-wrapper">
+                <a href="#" class="brand-logo">
+                   <img class="responsive-img" src="img/logo.png" width="190">       
+                </a>
+              </div>
+            </nav>
+          </div>
+     </header>
+     <main>
+      <div class="container" style="margin-top: 5%;">
+         <div class="row">
+          <form class="col m8">        
+                <div class="row">
+                  <div class="input-field col m10">
+                    <input id="nombre" type="text" class="validate" value="Anne Marie Williams">
+                    <label for="nombre">Nombre</label>
+                  </div>     
+                </div>
+                <div class="row">
+                  <div class="input-field col m10">
+                    <input id="cedula" type="text" class="validate" value="22548987">
+                    <label for="cedula">Cedula</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col m10">
+                    <input id="examenes" type="text" class="validate" value="Tipo de sangre, Hematologia completa">
+                    <label for="examenes">Examenes</label>
+                  </div>
+                </div>  
+                <div class="row">
+                   <div class="input-field col m10">
+                    <input id="Total" type="text" class="validate right-align" value="25$">
+                    <label for="Total">Total</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col m10">
+                    <input id="Pago" type="text" class="validate right-align" value="20$">
+                    <label for="Pago">Pago</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col m10">
+                    <input id="Pendiente" type="text" class="validate right-align" value="5$">
+                    <label for="Pendiente">Pendiente</label>
+                  </div>
+                </div>       
+          </form>
+          <div class="col m4">
+             <div class=""> 
+                  <img class="responsive-img" src="img/qr.png">
+            </div>
+            <div class="input-field">
+                    <input id="Pendiente" type="text" class="validate center-align" value="37504">
+                    <label for="Pendiente">Nº de orden</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      </main>
+
+      <footer class="page-footer red darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 m12">
+                <h5 class="white-text">Centro Médico Quirúrgico La Trinidad</h5>
+                <p class="grey-text text-lighten-4">Av. Los Agustinos, Conjunto Res. Paramillo, Casa Nº. 1, Zona Industrial Paramillo, San Cristobal</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Contactar</h5>
+                <ul>
+                  <li><h6><i class="tiny material-icons">call</i>(0276)3565093</h6></li>
+                  <li><h6><i class="tiny material-icons">call</i>(0276)510.5600</h6></li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © Copyright 2020. Todos los derechos reservados. Powered by LabLive
+            </div>
+          </div>
+        </footer>    
+
+
+
+
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('select');
+          var instances = M.FormSelect.init(elems);
+        });
+      </script>
+    </body>
+  </html>
